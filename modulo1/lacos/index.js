@@ -56,7 +56,8 @@ vai ser impresso os asteriscos em 4 linhas.*/
     
     a) Se a quantidade for 0, imprima no console "Que pena! Você pode adotar um pet!"
     
-    b) Se a quantidade for maior que 0, solicite que o usuário digite os nomes deles, um por um, e guarde esses nomes em um array
+    b) Se a quantidade for maior que 0, solicite que o usuário digite os nomes deles, um por um,
+     e guarde esses nomes em um array*/
 
 let quantosBichinhos =  Number(prompt("quantos bichinhos você tem?"))
 
@@ -70,7 +71,7 @@ console.log =  prompt("Digite o nome de cada pet!")
 
 }
 console.log(quantosBichinhos)
-*/
+
 
 /*2. Considere que você tenha acesso a um `array`  (chamado de 'array original') que é composto somente de números.
  Baseando-se nisso, crie uma função para cada um dos itens abaixo, realizando as operações pedidas:
@@ -108,15 +109,17 @@ console.log(quantosBichinhos)
     }
 
 
-    let i = 0 
-    let numero = -1
-    let arrayString = (...arrayOriginal){
+    
+    
+   arrayString = ("O elementodo index ",i, "é:" ,numero,){
+  let numero = 0
+  let i = -1
+    }
+    console.log(arrayString)
+    
+    
 
-      } 
-     return arrayString
-    console.log ("O elementodo index ",i, "é:" ,numero,)
 
-/*
 
     let maior = 0
     let  numeroMaior = -1;
@@ -135,7 +138,6 @@ console.log(quantosBichinhos)
       numeroMenor = i;
     }
   }
-
-    */
+    
     
   
